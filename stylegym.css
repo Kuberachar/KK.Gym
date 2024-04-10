@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+.banner{
+    background-image: url(./KK\ gymlogo.jpg);
+    height: 17vw;
+    width: 100vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size:50%;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color:lightskyblue;
+}
+
+.nav{
+    background-color:chocolate;
+    overflow: hidden;
+    padding: 0%;
+}
+
+.nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+    text-align:justify;
+    font-size: xx-large;
+}
+
+h2{
+    background-position: center;
+    text-align: center;
+    background: rgb(3,242,191);
+background: linear-gradient(90deg, rgba(3,242,191,1) 0%, rgba(5,255,155,1) 51%, rgba(0,251,33,1) 97%);
+}
